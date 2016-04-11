@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UUID.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // 首先打开 钥匙串 Capabilities -> Keychain Sharing -> ON
+    
+    NSString * uuid= [UUID getUUID];
+    NSLog(@"uuid=%@",uuid);
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
