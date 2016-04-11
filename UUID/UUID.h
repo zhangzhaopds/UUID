@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #define  KEY_USERNAME_PASSWORD @"com.company.app.usernamepassword"
-#define  KEY_USERNAME @"com.company.app.username"
-#define  KEY_PASSWORD @"com.company.app.password"
+//#define  KEY_USERNAME @"com.company.app.username"
+//#define  KEY_PASSWORD @"com.company.app.password"
 
 @interface UUID : NSObject
 

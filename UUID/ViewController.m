@@ -23,9 +23,10 @@
     
     NSString * uuid= [UUID getUUID];
     NSLog(@"uuid=%@",uuid);
+    // 3E5C3A60-65DD-4E41-A706-6018A4FD89F2
     
     
-    
+        
 }
 
 - (void)didReceiveMemoryWarning {
